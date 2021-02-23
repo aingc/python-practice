@@ -24,7 +24,7 @@ print(len(fruits))
 # Set - unordered collection, unindexed, no duplicates
 
 # Create set
-fruits_set = {'Apple', 'Orange', 'Mango'}
+fruits_set = {'Apples', 'Orange', 'Mango'}
 
 # Check if in set
 print('Apples' in fruits_set) # returns bool
@@ -45,3 +45,6 @@ print(fruits_set)
 
 del fruits_set
 print(fruits_set) # errors as fruits_set isn't defined after being deleted
+
+# When trying to add a duplicate, there won't be an error, it just won't add the duplicate
+fruits_set.add('Apples')
